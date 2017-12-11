@@ -14,6 +14,15 @@
 		990A33351FC4D37A00143F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990A33331FC4D37A00143F3A /* LaunchScreen.storyboard */; };
 		990A33401FC4D37B00143F3A /* RectoriaBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990A333F1FC4D37B00143F3A /* RectoriaBotTests.swift */; };
 		990A334B1FC4D37B00143F3A /* RectoriaBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990A334A1FC4D37B00143F3A /* RectoriaBotUITests.swift */; };
+		990A33591FC4D54800143F3A /* bot.png in Resources */ = {isa = PBXBuildFile; fileRef = 990A33581FC4D54800143F3A /* bot.png */; };
+		990A33631FC4DB6D00143F3A /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 990A33621FC4DB6D00143F3A /* photo.png */; };
+		990A33651FC4DFE800143F3A /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 990A33641FC4DFE800143F3A /* Cartfile */; };
+		990A336C1FC4E64900143F3A /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990A336B1FC4E64900143F3A /* TextToSpeechV1.framework */; };
+		990A336E1FC4E66300143F3A /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990A336D1FC4E66300143F3A /* ConversationV1.framework */; };
+		99C414BC1FCF4048000E6AF1 /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C414BB1FCF4048000E6AF1 /* SpeechToTextV1.framework */; };
+		99C414BE1FD8BE2A000E6AF1 /* google-home-mutemic-1500x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C414BD1FD8BE2A000E6AF1 /* google-home-mutemic-1500x1000.jpg */; };
+		99D012E21FDB037C00C1304E /* mediabug-electronics-microphone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D012E11FDB037C00C1304E /* mediabug-electronics-microphone-icon.png */; };
+		99D012E41FDB05B700C1304E /* 24992449_10214717920922527_1355465750_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D012E31FDB05B600C1304E /* 24992449_10214717920922527_1355465750_n.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		990A33461FC4D37B00143F3A /* RectoriaBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectoriaBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990A334A1FC4D37B00143F3A /* RectoriaBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectoriaBotUITests.swift; sourceTree = "<group>"; };
 		990A334C1FC4D37B00143F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990A33581FC4D54800143F3A /* bot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bot.png; path = ../../../Documents/bot.png; sourceTree = "<group>"; };
+		990A33621FC4DB6D00143F3A /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo.png; path = ../../../Documents/photo.png; sourceTree = "<group>"; };
+		990A33641FC4DFE800143F3A /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		990A336B1FC4E64900143F3A /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = RectoriaBot/Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
+		990A336D1FC4E66300143F3A /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = RectoriaBot/Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
+		99C414BB1FCF4048000E6AF1 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = RectoriaBot/Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
+		99C414BD1FD8BE2A000E6AF1 /* google-home-mutemic-1500x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "google-home-mutemic-1500x1000.jpg"; path = "../../../Downloads/google-home-mutemic-1500x1000.jpg"; sourceTree = "<group>"; };
+		99D012E11FDB037C00C1304E /* mediabug-electronics-microphone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mediabug-electronics-microphone-icon.png"; path = "../../../Downloads/mediabug-electronics-microphone-icon.png"; sourceTree = "<group>"; };
+		99D012E31FDB05B600C1304E /* 24992449_10214717920922527_1355465750_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 24992449_10214717920922527_1355465750_n.png; path = ../../../Downloads/24992449_10214717920922527_1355465750_n.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C414BC1FCF4048000E6AF1 /* SpeechToTextV1.framework in Frameworks */,
+				990A336E1FC4E66300143F3A /* ConversationV1.framework in Frameworks */,
+				990A336C1FC4E64900143F3A /* TextToSpeechV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,7 @@
 				990A333E1FC4D37B00143F3A /* RectoriaBotTests */,
 				990A33491FC4D37B00143F3A /* RectoriaBotUITests */,
 				990A33281FC4D37A00143F3A /* Products */,
+				990A33661FC4E4AC00143F3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +119,15 @@
 		990A33291FC4D37A00143F3A /* RectoriaBot */ = {
 			isa = PBXGroup;
 			children = (
+				990A33581FC4D54800143F3A /* bot.png */,
+				990A33641FC4DFE800143F3A /* Cartfile */,
 				990A332A1FC4D37A00143F3A /* AppDelegate.swift */,
+				99C414BD1FD8BE2A000E6AF1 /* google-home-mutemic-1500x1000.jpg */,
 				990A332C1FC4D37A00143F3A /* ViewController.swift */,
+				99D012E31FDB05B600C1304E /* 24992449_10214717920922527_1355465750_n.png */,
 				990A332E1FC4D37A00143F3A /* Main.storyboard */,
+				99D012E11FDB037C00C1304E /* mediabug-electronics-microphone-icon.png */,
+				990A33621FC4DB6D00143F3A /* photo.png */,
 				990A33311FC4D37A00143F3A /* Assets.xcassets */,
 				990A33331FC4D37A00143F3A /* LaunchScreen.storyboard */,
 				990A33361FC4D37A00143F3A /* Info.plist */,
@@ -125,6 +153,16 @@
 			path = RectoriaBotUITests;
 			sourceTree = "<group>";
 		};
+		990A33661FC4E4AC00143F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C414BB1FCF4048000E6AF1 /* SpeechToTextV1.framework */,
+				990A336D1FC4E66300143F3A /* ConversationV1.framework */,
+				990A336B1FC4E64900143F3A /* TextToSpeechV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +173,7 @@
 				990A33231FC4D37A00143F3A /* Sources */,
 				990A33241FC4D37A00143F3A /* Frameworks */,
 				990A33251FC4D37A00143F3A /* Resources */,
+				990A33711FC4E6E900143F3A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -232,9 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D012E21FDB037C00C1304E /* mediabug-electronics-microphone-icon.png in Resources */,
+				99C414BE1FD8BE2A000E6AF1 /* google-home-mutemic-1500x1000.jpg in Resources */,
+				990A33651FC4DFE800143F3A /* Cartfile in Resources */,
 				990A33351FC4D37A00143F3A /* LaunchScreen.storyboard in Resources */,
 				990A33321FC4D37A00143F3A /* Assets.xcassets in Resources */,
+				99D012E41FDB05B700C1304E /* 24992449_10214717920922527_1355465750_n.png in Resources */,
+				990A33631FC4DB6D00143F3A /* photo.png in Resources */,
 				990A33301FC4D37A00143F3A /* Main.storyboard in Resources */,
+				990A33591FC4D54800143F3A /* bot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +298,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		990A33711FC4E6E900143F3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/RectoriaBot/Carthage/Build/iOS/TextToSpeechV1.framework",
+				"$(SRCROOT)/RectoriaBot/Carthage/Build/iOS/ConversationV1.framework",
+				"$(SRCROOT)/RectoriaBot/Carthage/Build/iOS/SpeechToTextV1.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		990A33231FC4D37A00143F3A /* Sources */ = {
@@ -427,7 +491,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5U837LAJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RectoriaBot/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RectoriaBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TECBOT.RectoriaBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +511,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5U837LAJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RectoriaBot/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RectoriaBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TECBOT.RectoriaBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
